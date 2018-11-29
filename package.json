@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-const-replace-import",
+  "version": "0.0.1",
+  "description": "Compile specific libraries imports to const ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neitherzhu/babel-plugin-const-replace-import.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-plugin"
+  ],
+  "author": "Neither Zhu <neither.zhu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neitherzhu/babel-plugin-const-replace-import/issues"
+  },
+  "homepage": "https://github.com/neitherzhu/babel-plugin-const-replace-import#readme"
+}
