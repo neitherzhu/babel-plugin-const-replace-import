@@ -29,3 +29,34 @@ npm install --save-dev babel-plugin-const-replace-import
       }
     }],
 ```
+
+## Example
+
+源码： 
+```js
+import React, { Component, } from 'react'
+import { connect, } from 'react-redux'
+
+class TestComponent extends Component {
+  render() {
+    return <div>TestComponent</div>
+  }
+}
+
+export default ContractManage
+```
+
+转换后
+```js
+const React = window.React
+const { Component, } = window.React
+const { connect, } = window.ReactRedux
+
+class TestComponent extends Component {
+  render() {
+    return <div>TestComponent</div>
+  }
+}
+
+export default ContractManage
+```
